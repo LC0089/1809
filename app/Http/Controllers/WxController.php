@@ -142,19 +142,6 @@ class WxController extends Controller{
 
                     ),
                 ),
-                array(
-                    'name'=>"推广",
-                    "type"=>"click",
-                    "key"=>"bbb",
-                    "sub_button"=>array(
-                        array(
-                            "type"=>"scancode_waitmsg",
-                            "name"=>"微信扫码",
-                            "key"=>"iii"
-                        ),
-                    ),
-
-                ),
             ),
         );
         $strjson = json_encode($arr,JSON_UNESCAPED_UNICODE);
